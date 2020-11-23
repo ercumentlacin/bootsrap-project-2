@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+    --primary-color: #2643A0;
+    --pink-color: #DB5357;
+
+    --nav-item-color: #E5E7F6;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.border {
+    border: .2rem solid white !important;
+}
+
+.nav-item {
+    color: var(--nav-item-color) !important;   
+    transition: all 300ms ease-in-out;
+}
+
+.nav-item:hover,
+.nav-item.active {
+    background-color: var(--pink-color);
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.social > a > i {
+    color: white;
+    background-color: rgb(61, 61, 61);
+    transition: all 250ms;
+}
+
+.social > a:hover > i {
+    background-color: var(--pink-color);
+}
+
+.bg-pink {
+    background-color: var(--pink-color) !important;
+    outline: 0 !important;
+    border: .1rem solid var(--pink-color) !important;
+    transition: all 300ms ease-in-out;
+}
+
+.bg-pink:hover{
+    background-color: transparent;
+    border: .1rem solid white !important;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto white !important;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, .3) !important;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #d2d5d8 !important;
+}
+
+.navbar-collapse.collapse.show {
+    background-color: #3a3a3a5c !important;
+}
+
+.btn-primary:active,
+.btn-primary:focus
+{
+    background-color: var(--pink-color) !important;
+    border-color: var(--pink-color) !important;
+}
