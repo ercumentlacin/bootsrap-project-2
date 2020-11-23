@@ -1,6 +1,8 @@
 # Ödev Hakkında Bilgiler
 
 ---
+1. [İlk sitenin yayınlandığı netlify linki](https://ercument-lacin-bootsrap-01.netlify.app/)
+2. [İkinci sitenin yayınlandığı netlify linki](https://ercument-lacin-bootsrap-02.netlify.app/)
 
 Olabildiğince Bootsrap sınıfları kullanılmaya çalışıldı, eksik kalındığı durumlarda custom css yazıldı. 
 
